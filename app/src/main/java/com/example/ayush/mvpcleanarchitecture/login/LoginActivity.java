@@ -1,13 +1,14 @@
 package com.example.ayush.mvpcleanarchitecture.login;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.ayush.mvpcleanarchitecture.R;
+import com.example.ayush.mvpcleanarchitecture.userlist.UserListActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -49,7 +50,7 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
 
     @Override
     public void loginUser() {
-        Toast.makeText(this, "Login Successful", Toast.LENGTH_LONG).show();
+        startActivity(new Intent(this, UserListActivity.class));
     }
 
     @OnClick(R.id.activity_login_button_signin)

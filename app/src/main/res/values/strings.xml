@@ -3,7 +3,7 @@
     <!--Application Name-->
     <string name="app_name">MVP Clean Architecture</string>
 
-    <!--Login Activity strings-->
+    <!--LoginActivity strings-->
     <string name="login_activity">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
@@ -12,5 +12,8 @@
     <string name="signin_button_text">Sign In</string>
     <string name="error_email">Invalid email address</string>
     <string name="error_password">Invalid password</string>
+
+    <!--UserListActivity strings-->
+    <string name="button_add_user">Add User</string>
 
 </resources>
